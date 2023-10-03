@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "Result in base bestchol: %s\n" $(echo "ibase=water; ${WATER}" | bc) + $(echo "ibase=stir; ${STIR}" | bc) | bc -l
